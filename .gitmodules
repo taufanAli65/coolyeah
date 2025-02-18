@@ -1,0 +1,6 @@
+[submodule "DPSI/DPSI-BACKEND-24"]
+	path = DPSI/DPSI-BACKEND-24
+	url = https://github.com/taufanAli65/DPSI-BACKEND-24.git
+[submodule "tekmob/PraktTekmob"]
+	path = tekmob/PraktTekmob
+	url = https://github.com/taufanAli65/PraktTekmob.git

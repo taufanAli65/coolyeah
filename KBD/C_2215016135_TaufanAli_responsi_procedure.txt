@@ -1,0 +1,35 @@
+delimiter //
+create procedure addMahasiswa()
+begin
+insert into tb_mahasiswa values('2400016069', 'Muhammad Sumbul', 'P05');
+end//
+delimiter;
+
+delimiter //
+create procedure cariProdi()
+begin
+select nama_prodi from tb_prodi join tb_mahasiswa on tb_prodi.kode_prodi = tb_mahasiswa.kode_prodi where tb_mahasiswa.nama like 'd%';
+end //
+delimiter;
+
+delimiter //
+create procedure bukuTidakDipinjam()
+begin
+select judul from tb_buku join tb_pinjam on tb_buku.kode_buku = tb_pinjam.kode_buku where tb_pinjam.kembali = 0;
+end //
+delimiter;
+
+delimiter //
+create procedure cekNamaPeminjam()
+begin
+select Nama from tb_mahasiswa join tb_pinjam on tb_mahasiswa.nim = tb_pinjam.nim join tb_buku on tb_pinjam.kode_buku = tb_buku.kode_buku where tb_buku.Judul = 'Organisasi Komputer';
+end //
+delimiter;
+
+delimiter //
+create procedure cariMahasiswa(kata_kunci varchar(255))
+begin
+select * from tb_mahasiswa where tb_mahasiswa.Nama Like CONCAT('%', kata_kunci, '%');
+end //
+delimiter;
+

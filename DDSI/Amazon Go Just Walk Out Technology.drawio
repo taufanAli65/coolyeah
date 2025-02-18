@@ -1,0 +1,427 @@
+<mxfile host="app.diagrams.net" modified="2023-05-20T03:39:52.259Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="bCU3xyrQTDrnReKLC2Wa" version="21.3.2" type="device">
+  <diagram name="Page-1" id="naJ2jq9thKJ7_qh-nM0K">
+    <mxGraphModel dx="1388" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-1" value="Customer" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="17" y="143" width="1623" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" source="Ai84sVKtz_G2tzemb2Kz-3" target="Ai84sVKtz_G2tzemb2Kz-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="40" y="81" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-9" value="Memasuki&lt;br&gt;toko" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="140" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-18" value="Membuat akun" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="300" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" source="Ai84sVKtz_G2tzemb2Kz-21" target="Ai84sVKtz_G2tzemb2Kz-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-21" value="Memilih produk" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="460" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" source="Ai84sVKtz_G2tzemb2Kz-29" target="Ai84sVKtz_G2tzemb2Kz-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="20" />
+              <mxPoint x="520" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-29" value="produk dimasukkan tas?" style="rhombus;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="620" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-34" value="ya" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="662" y="140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-35" value="tidak" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="632" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w3IBGsCGzLLiDFDEltC4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" source="Ai84sVKtz_G2tzemb2Kz-40" target="Ai84sVKtz_G2tzemb2Kz-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-40" value="Kembalikan&lt;br&gt;Produk?" style="rhombus;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="747" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-47" value="ya" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="790" y="147" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w3IBGsCGzLLiDFDEltC4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Ai84sVKtz_G2tzemb2Kz-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="897" y="63" as="sourcePoint" />
+            <mxPoint x="520" y="73" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="897" y="20" />
+              <mxPoint x="520" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3IBGsCGzLLiDFDEltC4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" source="Ai84sVKtz_G2tzemb2Kz-49" target="w3IBGsCGzLLiDFDEltC4-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-49" value="Lanjut&amp;nbsp;&lt;br&gt;belanja?" style="rhombus;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="857" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-52" value="ya" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="893" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w3IBGsCGzLLiDFDEltC4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Ai84sVKtz_G2tzemb2Kz-1" source="Ai84sVKtz_G2tzemb2Kz-53" target="NYaigHIWJ9u_NfPiR6HB-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-53" value="Memilih metode pembayaran" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="1133" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-55" value="tidak" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="937" y="101" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-1" value="Dana&lt;br&gt;mencukupi?" style="rhombus;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="1283" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-6" value="tidak" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="1293" y="147" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-9" value="ya" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="1363" y="71" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" source="NYaigHIWJ9u_NfPiR6HB-10" target="NYaigHIWJ9u_NfPiR6HB-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-10" value="Meninggalkan toko" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="1417" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="1571" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w3IBGsCGzLLiDFDEltC4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" source="w3IBGsCGzLLiDFDEltC4-1" target="Ai84sVKtz_G2tzemb2Kz-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w3IBGsCGzLLiDFDEltC4-1" value="Memproses Checkout" style="rounded=1;whiteSpace=wrap;html=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="983" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-48" value="tidak" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-1" vertex="1">
+          <mxGeometry x="827" y="71" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-6" value="Amazon Go System" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="17" y="343" width="1623" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" source="Ai84sVKtz_G2tzemb2Kz-11" target="Ai84sVKtz_G2tzemb2Kz-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-11" value="Identifikasi pelanggan" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" vertex="1">
+          <mxGeometry x="140" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" source="Ai84sVKtz_G2tzemb2Kz-16" target="Ai84sVKtz_G2tzemb2Kz-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-16" value="pelanggan&lt;br&gt;punya akun?" style="rhombus;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" vertex="1">
+          <mxGeometry x="320" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-20" value="tidak" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" vertex="1">
+          <mxGeometry x="360" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-22" value="Melacak gerakan dan tindakan pengunjung" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" vertex="1">
+          <mxGeometry x="460" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-25" value="ya" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" vertex="1">
+          <mxGeometry x="410" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-31" value="Menambahkan produk kedalam virtual chart" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" vertex="1">
+          <mxGeometry x="601" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" source="Ai84sVKtz_G2tzemb2Kz-36" target="Ai84sVKtz_G2tzemb2Kz-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" vertex="1">
+          <mxGeometry x="40" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-44" value="Menghapus produk dari virtual chart" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" vertex="1">
+          <mxGeometry x="767" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-3" value="Memberikan notifikasi atau meminta metode pembayaran alternatif" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" vertex="1">
+          <mxGeometry x="1263" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-7" value="Memproses pembayaran" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Ai84sVKtz_G2tzemb2Kz-6" vertex="1">
+          <mxGeometry x="1417" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="Ai84sVKtz_G2tzemb2Kz-9" target="Ai84sVKtz_G2tzemb2Kz-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="Ai84sVKtz_G2tzemb2Kz-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="377" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="Ai84sVKtz_G2tzemb2Kz-22" target="Ai84sVKtz_G2tzemb2Kz-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="Ai84sVKtz_G2tzemb2Kz-18" target="Ai84sVKtz_G2tzemb2Kz-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="217" y="353" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="297" y="243" />
+              <mxPoint x="297" y="313" />
+              <mxPoint x="217" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="Ai84sVKtz_G2tzemb2Kz-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="677" y="414" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="677" y="414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ai84sVKtz_G2tzemb2Kz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="Ai84sVKtz_G2tzemb2Kz-31" target="Ai84sVKtz_G2tzemb2Kz-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="443" />
+              <mxPoint x="750" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="NYaigHIWJ9u_NfPiR6HB-1" target="NYaigHIWJ9u_NfPiR6HB-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="350" />
+              <mxPoint x="1340" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-15" value="&lt;font style=&quot;font-size: 60px;&quot; face=&quot;Verdana&quot;&gt;Amazon Go : Just Walk Out Technology&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry width="1650" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-41" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="41" y="657" width="1560" height="1013" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-42" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="NYaigHIWJ9u_NfPiR6HB-41" vertex="1">
+          <mxGeometry width="1560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-43" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;AMAZON GO : Just Walk Out Technology&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-42" vertex="1">
+          <mxGeometry width="780" height="80" as="geometry">
+            <mxRectangle width="780" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-44" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;Supermarket Konvensional&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-42" vertex="1">
+          <mxGeometry x="780" width="780" height="80" as="geometry">
+            <mxRectangle width="780" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-45" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="NYaigHIWJ9u_NfPiR6HB-41" vertex="1">
+          <mxGeometry y="80" width="1560" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-46" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Pelanggan dapat masuk ke toko, mengambil produk yang mereka inginkan, dan meninggalkan toko tanpa mengantri di kasir. Pembayaran dilakukan secara otomatis melalui akun Amazon.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-45" vertex="1">
+          <mxGeometry width="780" height="134" as="geometry">
+            <mxRectangle width="780" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-47" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Pelanggan harus mengambil produk, mengantri di kasir untuk pembayaran, dan melakukan proses checkout yang melibatkan interaksi dengan kasir atau self-checkout.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-45" vertex="1">
+          <mxGeometry x="780" width="780" height="134" as="geometry">
+            <mxRectangle width="780" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-48" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="NYaigHIWJ9u_NfPiR6HB-41" vertex="1">
+          <mxGeometry y="214" width="1560" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-49" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Proses belanja lebih cepat dan efisien karena tidak ada antrian kasir. Pelanggan dapat langsung meninggalkan toko setelah mengambil produk yang mereka butuhkan.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-48" vertex="1">
+          <mxGeometry width="780" height="133" as="geometry">
+            <mxRectangle width="780" height="133" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-50" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ada kemungkinan antrian kasir yang panjang, terutama pada jam sibuk. Proses checkout dan pembayaran membutuhkan waktu lebih lama.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-48" vertex="1">
+          <mxGeometry x="780" width="780" height="133" as="geometry">
+            <mxRectangle width="780" height="133" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="NYaigHIWJ9u_NfPiR6HB-41" vertex="1">
+          <mxGeometry y="347" width="1560" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-52" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Pembayaran dilakukan secara otomatis melalui akun Amazon. Tidak diperlukan transaksi tunai atau pembayaran kartu di kasir.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-51" vertex="1">
+          <mxGeometry width="780" height="133" as="geometry">
+            <mxRectangle width="780" height="133" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-53" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Pembayaran dilakukan menggunakan uang tunai, kartu kredit, atau debit di kasir.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-51" vertex="1">
+          <mxGeometry x="780" width="780" height="133" as="geometry">
+            <mxRectangle width="780" height="133" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="NYaigHIWJ9u_NfPiR6HB-41" vertex="1">
+          <mxGeometry y="480" width="1560" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-55" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Produk yang tersedia terbatas pada inventaris toko dan dapat bervariasi di setiap lokasi Amazon Go. Tersedia produk-produk populer dan barang kebutuhan sehari-hari.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-54" vertex="1">
+          <mxGeometry width="780" height="134" as="geometry">
+            <mxRectangle width="780" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-56" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Supermarket konvensional biasanya menawarkan berbagai macam produk, termasuk makanan segar, barang rumah tangga, produk kebersihan, dan banyak lagi.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-54" vertex="1">
+          <mxGeometry x="780" width="780" height="134" as="geometry">
+            <mxRectangle width="780" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-57" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="NYaigHIWJ9u_NfPiR6HB-41" vertex="1">
+          <mxGeometry y="614" width="1560" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-58" value="&lt;font style=&quot;font-size: 24px;&quot;&gt; Interaksi pelanggan terbatas pada proses memasuki toko, mengambil produk, dan meninggalkan toko. Tidak ada interaksi dengan kasir atau pegawai toko.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-57" vertex="1">
+          <mxGeometry width="780" height="133" as="geometry">
+            <mxRectangle width="780" height="133" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-59" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Pelanggan dapat berinteraksi dengan kasir atau pegawai toko untuk pertanyaan, bantuan, atau informasi tambahan tentang produk.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-57" vertex="1">
+          <mxGeometry x="780" width="780" height="133" as="geometry">
+            <mxRectangle width="780" height="133" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-63" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="NYaigHIWJ9u_NfPiR6HB-41" vertex="1">
+          <mxGeometry y="747" width="1560" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-64" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Hanya memiliki beberapa gerai toko di beberapa lokasi.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-63" vertex="1">
+          <mxGeometry width="780" height="133" as="geometry">
+            <mxRectangle width="780" height="133" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-65" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Memiliki banyak gerai toko yang tersebar di berbagai wilayah atau negara.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-63" vertex="1">
+          <mxGeometry x="780" width="780" height="133" as="geometry">
+            <mxRectangle width="780" height="133" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-66" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="NYaigHIWJ9u_NfPiR6HB-41" vertex="1">
+          <mxGeometry y="880" width="1560" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-67" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Menggunakan teknologi canggih seperti sensor, visi komputer, dan deep learning untuk melacak gerakan pelanggan, mengidentifikasi produk, dan memproses pembayaran otomatis.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-66" vertex="1">
+          <mxGeometry width="780" height="133" as="geometry">
+            <mxRectangle width="780" height="133" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-68" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Menggunakan teknologi dalam beberapa aspek, misalnya kasir self-checkout, sistem manajemen inventaris, dan sistem pembayaran elektronik. Namun, tidak sekompleks dan seotomatis Amazon Go.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="NYaigHIWJ9u_NfPiR6HB-66" vertex="1">
+          <mxGeometry x="780" width="780" height="133" as="geometry">
+            <mxRectangle width="780" height="133" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYaigHIWJ9u_NfPiR6HB-72" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Perbandingan layanan Amazon Go dengan layanan supermarket&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="41" y="570" width="1560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-1" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Keunggulan dan Kekurangan Amazon GO&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="41" y="1680" width="1560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-68" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="41" y="1760" width="1560" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-69" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gSUg_UqriSWJIKnz_qcM-68" vertex="1">
+          <mxGeometry width="1560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-70" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;Keunggulan&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="gSUg_UqriSWJIKnz_qcM-69" vertex="1">
+          <mxGeometry width="781" height="60" as="geometry">
+            <mxRectangle width="781" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-71" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;Kekurangan&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="gSUg_UqriSWJIKnz_qcM-69" vertex="1">
+          <mxGeometry x="781" width="779" height="60" as="geometry">
+            <mxRectangle width="779" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gSUg_UqriSWJIKnz_qcM-68" vertex="1">
+          <mxGeometry y="60" width="1560" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-73" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Pembelian yang Mudah: Dengan Amazon Go, Pembeli dapat memilih produk yang diinginkan dan meninggalkan toko tanpa harus mengantri di kasir.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="gSUg_UqriSWJIKnz_qcM-72" vertex="1">
+          <mxGeometry width="781" height="94" as="geometry">
+            <mxRectangle width="781" height="94" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-74" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Terbatas pada Jenis Toko: Saat ini, teknologi Just Walk Out hanya tersedia di toko-toko Amazon Go.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="gSUg_UqriSWJIKnz_qcM-72" vertex="1">
+          <mxGeometry x="781" width="779" height="94" as="geometry">
+            <mxRectangle width="779" height="94" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-75" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gSUg_UqriSWJIKnz_qcM-68" vertex="1">
+          <mxGeometry y="154" width="1560" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-76" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Tidak Perlu Interaksi dengan Staf: Sistem Just Walk Out memungkinkan pembeli berbelanja tanpa perlu berinteraksi dengan staf toko.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="gSUg_UqriSWJIKnz_qcM-75" vertex="1">
+          <mxGeometry width="781" height="93" as="geometry">
+            <mxRectangle width="781" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-77" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Tergantung pada Ketersediaan Stok: Sistem Just Walk Out bergantung pada ketersediaan stok yang akurat.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="gSUg_UqriSWJIKnz_qcM-75" vertex="1">
+          <mxGeometry x="781" width="779" height="93" as="geometry">
+            <mxRectangle width="779" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-78" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gSUg_UqriSWJIKnz_qcM-68" vertex="1">
+          <mxGeometry y="247" width="1560" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-79" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Kemudahan Pengembalian/Pembatalan Pembelian: Jika pembeli ingin mengembalikan atau membatalkan pembelian, pembeli dapat melakukannya melalui aplikasi Amazon Go. &lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="gSUg_UqriSWJIKnz_qcM-78" vertex="1">
+          <mxGeometry width="781" height="103" as="geometry">
+            <mxRectangle width="781" height="103" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-80" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;&quot;&gt;Privasi dan Keamanan Data: Sistem Amazon Go menggunakan teknologi sensor dan komputer vision untuk melacak dan merekam aktivitas belanja pelanggan.&lt;/font&gt; Meskipun Amazon mengklaim menjaga keamanan data pelanggan, ada kekhawatiran privasi terkait dengan pengumpulan dan penggunaan data pribadi.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="gSUg_UqriSWJIKnz_qcM-78" vertex="1">
+          <mxGeometry x="781" width="779" height="103" as="geometry">
+            <mxRectangle width="779" height="103" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-81" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gSUg_UqriSWJIKnz_qcM-68" vertex="1">
+          <mxGeometry y="350" width="1560" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-82" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Kemudahan Pembayaran: Amazon Go menggunakan sistem pembayaran otomatis, di mana pembayaran dilakukan secara langsung melalui aplikasi Amazon Go atau kartu yang terhubung.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="gSUg_UqriSWJIKnz_qcM-81" vertex="1">
+          <mxGeometry width="781" height="110" as="geometry">
+            <mxRectangle width="781" height="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-83" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Tidak Cocok untuk Semua Jenis Belanja: Meskipun teknologi ini cocok untuk pembelian sehari-hari atau pembelian kecil, ada beberapa jenis belanja yang mungkin tidak cocok. Misalnya, jika pembeli ingin berbelanja dalam jumlah besar atau membeli barang yang memerlukan interaksi dengan staf toko.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="gSUg_UqriSWJIKnz_qcM-81" vertex="1">
+          <mxGeometry x="781" width="779" height="110" as="geometry">
+            <mxRectangle width="779" height="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-84" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gSUg_UqriSWJIKnz_qcM-68" vertex="1">
+          <mxGeometry y="460" width="1560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-85" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Rekomendasi Produk yang Personal: Sistem Just Walk Out dapat melacak produk yang pembeli ambil dan menggantinya ke dalam keranjang belanjaan digitalnya.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="gSUg_UqriSWJIKnz_qcM-84" vertex="1">
+          <mxGeometry width="781" height="100" as="geometry">
+            <mxRectangle width="781" height="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-86" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Kemungkinan Kesalahan atau Ketidakakuratan: Sistem Just Walk Out juga rentan terhadap kesalahan atau ketidakakuratan. Misalnya, sistem mungkin salah mengenali barang yang pembeli ambil atau melewatkan beberapa barang saat pembeli meninggalkan toko.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" parent="gSUg_UqriSWJIKnz_qcM-84" vertex="1">
+          <mxGeometry x="781" width="779" height="100" as="geometry">
+            <mxRectangle width="779" height="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSUg_UqriSWJIKnz_qcM-188" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Taufan Ali&lt;br&gt;2215016135&lt;br&gt;DDSI B&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1540" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w3IBGsCGzLLiDFDEltC4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ai84sVKtz_G2tzemb2Kz-40" target="Ai84sVKtz_G2tzemb2Kz-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="804" y="370" />
+              <mxPoint x="844" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3IBGsCGzLLiDFDEltC4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Ai84sVKtz_G2tzemb2Kz-44" target="Ai84sVKtz_G2tzemb2Kz-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="914" y="443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3IBGsCGzLLiDFDEltC4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="NYaigHIWJ9u_NfPiR6HB-3" target="Ai84sVKtz_G2tzemb2Kz-53" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kTOhw3obrR2IL0EL0bsF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NYaigHIWJ9u_NfPiR6HB-7" target="NYaigHIWJ9u_NfPiR6HB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kTOhw3obrR2IL0EL0bsF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NYaigHIWJ9u_NfPiR6HB-1" target="NYaigHIWJ9u_NfPiR6HB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

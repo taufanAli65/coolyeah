@@ -1,0 +1,17 @@
+update buku set penerbit='Angkasa Bandung' where kode_buku='B04';
+
+alter table buku add jumlah varchar(250);
+
+update buku set jumlah=25 where kode_buku='B01';
+update buku set jumlah=240 where kode_buku='B02';
+update buku set jumlah=75 where kode_buku='B03';
+update buku set jumlah=100 where kode_buku='B04';
+update buku set jumlah=80 where kode_buku='B05';
+update buku set jumlah=120 where kode_buku='B06';
+
+insert into fakultas values('F07', 'Fak. Kedokteran', 'Kampus IV');
+insert into fakultas values('F08', 'Fak. pendidikan', 'Kampus III');
+
+insert into pinjam values('01006001', 'B03', '2007-04-08', '2007-04-08', NULL, 0);
+insert into pinjam values('04002001', 'B04', '2007-04-23', '2007-04-30', NULL, 0);
+insert into pinjam values('05004001', 'B05', '2007-04-12', '2007-04-19', NULL, 0);

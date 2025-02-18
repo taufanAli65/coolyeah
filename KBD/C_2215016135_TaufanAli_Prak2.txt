@@ -1,0 +1,16 @@
+create database digilab;
+use digilab;
+create table FAKULTAS (kode_fak CHAR(3) PRIMARY KEY, nama_fakultas VARCHAR(30) NOT NULL, Lokasi VARCHAR(20) NOT NULL);
+insert into FAKULTAS values ('F01', 'FAK. MIPA', 'Kampus III'), ('F02', 'FAK. Ekonomi', 'Kampus I'), ('F03', 'FAK. Teknik', 'Kampus III'), ('F04', 'FAK. Sastra', 'Kampus II'), ('F05', 'FAK. Hukum', 'Kampus II'), ('F06', 'FAK. Psikologi', 'Kampus I');
+
+create table PRODI (kode_prodi CHAR(3) PRIMARY KEY, Nama_prodi VARCHAR(30), kode_fak CHAR(3), FOREIGN KEY (kode_fak) REFERENCES FAKULTAS(kode_fak));
+insert into PRODI values ('P01', 'Ilmu Komputer', 'F01'), ('P02', 'Ekonomi', 'F02'), ('P03', 'Teknik Industri', 'F03'), ('P04', 'Sastra Inggris', 'F04'), ('P05', 'Hukum', 'F05'), ('P06', 'Psikologi', 'F06');
+
+CREATE TABLE Mahasiswa (nim CHAR(8) PRIMARY KEY, Nama VARCHAR(30), kode_prodi CHAR(3), FOREIGN KEY (kode_prodi) REFERENCES PRODI(kode_prodi));
+insert into MAHASISWA values ('04001001', 'Andi Herwanto', 'P01'), ('04002001', 'Didik Cahyono', 'P02'), ('02003001', 'Fajar Yuda', 'P03'), ('05004001', 'Yanti', 'P04'), ('03005001', 'Tanakung', 'P05'), ('01006001', 'Andrian', 'P06');
+
+CREATE TABLE Buku (kode_buku CHAR(3) PRIMARY KEY, Judul VARCHAR(50), penulis VARCHAR(30), penerbit VARCHAR(30));
+insert into Buku values ('B01', 'Basis Data', 'Tawar AG, M.Si', 'Andi Offset'), ('B02', 'Matematika', 'Sugiyarto M.Si', 'Gava Media'), ('B03', 'Organisasi Komputer', 'Imam Riadi, SPd, M.Kom', 'Andi Offset'), ('B04', 'Struktur Data', 'Suprihatin S.Kom', 'Andi Offset'), ('B05', 'Mikrobiologi', 'Hadi Sasaongko Msi', 'Elex Media'), ('B06', 'Akuntansi', 'Sugiyarto M.Si', 'Yudistira');
+
+CREATE TABLE pinjam (nim CHAR(8), kode_buku CHAR(3), tgl_pjm DATE, tgl_hrs_kbl DATE, tgl_kbl DATE, kembali BOOL, PRIMARY KEY (nim, kode_buku), FOREIGN KEY (nim) REFERENCES Mahasiswa(nim), FOREIGN KEY (kode_buku) REFERENCES Buku(kode_buku));
+insert into pinjam values ('02003001', 'B02', '2007-04-13', '2007-04-20', '2007-04-17', '1'), ('03005001', 'B03', '2007-04-17', '2007-04-24', '2007-04-21', '1'), ('04001001', 'B03', '2007-04-15', '2007-04-22', '2007-04-20', '1'), ('01006001', 'B06', '2007-04-12', '2007-04-19', '2007-04-16', '1');

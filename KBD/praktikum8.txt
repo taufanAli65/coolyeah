@@ -1,0 +1,72 @@
+SELECT GREATEST(2,0);
+SELECT GREATEST(34.0,3.0,5.0,767.0);
+SELECT GREATEST('B','A','C');
+
+SELECT LEAST(2,0);
+SELECT LEAST(34.0,3.0,5.0,767.0);
+SELECT LEAST('B','A','C');
+
+SELECT NOT 0;
+SELECT NOT NULL;
+SELECT ! (1+1);
+SELECT ! 1+1;
+
+SELECT 1 && 1;
+SELECT 1 && 0;
+SELECT 1 && NULL;
+SELECT 0 && NULL;
+SELECT NULL && 0;
+
+SELECT 1 || 1;
+SELECT 1 || 0;
+SELECT 0 || 0;
+SELECT 0 || NULL;
+SELECT 1 || NULL;
+
+SELECT 1 XOR 1;
+SELECT 1 XOR 0;
+SELECT 1 XOR NULL;
+SELECT 1 XOR 1 XOR 1;
+
+SELECT IF(1>2,2,3);
+SELECT IF(1<2,'yes','no');
+SELECT IF(STRCMP('test','test1'),'no','yes');
+
+SELECT IFNULL(1,0);
+SELECT IFNULL(NULL,10);
+SELECT IFNULL(1/0,10);
+SELECT IFNULL(1/0,'yes');
+
+SELECT NULLIF(1,1);
+SELECT NULLIF(1,2);
+
+SELECT ASCII('2'); SELECT ASCII(2); SELECT ASCII('dx');
+SELECT BIN(12);
+SELECT BIT_LENGTH('text');
+SELECT CHAR(77,121,83,81,'76');
+SELECT CHAR(77,77.3,'77.3');
+SELECT CONCAT('My', 'S', 'QL');
+SELECT CONCAT('My', NULL, 'QL');
+SELECT CONCAT(14.3);
+SELECT CONCAT_WS(',','First name','Second name','Last Name');
+SELECT CONV('a',16,2);
+SELECT CONV('6E',18,8);
+SELECT LOWER('QUADRATICALLY');
+SELECT LEFT('foobarbar', 5);
+SELECT STRCMP('text', 'text2');
+SELECT STRCMP('text2', 'text');
+SELECT STRCMP('text', 'text');
+
+SELECT 3+5;
+SELECT 3-5;
+SELECT 3*5;
+SELECT 3/5;
+
+select current_date as Tgl_Sekarang;
+select current_time as Waktu_Sekarang;
+
+select min(jumlah) from buku;
+select max(jumlah) from buku;
+select count(nama) from mahasiswa;
+select avg(Jumlah) from buku;
+select sum(jumlah) from buku;

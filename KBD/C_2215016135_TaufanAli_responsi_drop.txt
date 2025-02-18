@@ -1,0 +1,5 @@
+drop table pinjam;
+drop table buku;
+drop table mahasiswa;
+drop table fakultas;
+drop table prodi;

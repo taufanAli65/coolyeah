@@ -1,0 +1,11 @@
+create database responsiKbd;
+use responsiKbd;
+create table tb_fak (kode_fak CHAR(3) PRIMARY KEY, nama_fak VARCHAR(30), Lokasi VARCHAR(20));
+
+create table tb_prodi (kode_prodi CHAR(3) PRIMARY KEY, nama_prodi VARCHAR(30), kode_fak CHAR(3), FOREIGN KEY (kode_fak) REFERENCES tb_fak(kode_fak));
+
+CREATE TABLE tb_mahasiswa (nim CHAR(10) PRIMARY KEY, Nama VARCHAR(30), kode_prodi CHAR(3), FOREIGN KEY (kode_prodi) REFERENCES tb_prodi(kode_prodi));
+
+CREATE TABLE tb_buku (kode_buku CHAR(3) PRIMARY KEY, Judul VARCHAR(50), penulis VARCHAR(30), penerbit VARCHAR(30), jumlah char(10));
+
+CREATE TABLE tb_pinjam (nim CHAR(10), kode_buku CHAR(3), tgl_pjm DATE, tgl_hrs_kbl DATE, tgl_kbl DATE, kembali BOOL, FOREIGN KEY (nim) REFERENCES tb_mahasiswa(nim), FOREIGN KEY (kode_buku) REFERENCES tb_buku(kode_buku));

@@ -1,0 +1,9 @@
+insert into tb_fak values ('F01', 'FAK. MIPA', 'Kampus IV'), ('F02', 'FAK. Teknologi Industri', 'Kampus IV'), ('F03', 'FAK. Psikologi', 'Kampus I'), ('F04', 'FAK. Kesehatan Masyarakat', 'Kampus III'), ('F05', 'FAK. Agama Islam', 'Kampus IV');
+
+insert into tb_prodi values ('P01', 'Sistem Informasi', 'F01'), ('P02', 'Farmasi', 'F04'), ('P03', 'Teknik Industri', 'F02'), ('P04', 'Perbankan Syariah', 'F05'), ('P05', 'Psikologi', 'F03');
+
+insert into tb_mahasiswa values ('2400016071', 'Nur Minji', 'P01'), ('2400021058', 'Karina Azizah', 'P03'), ('2400010003', 'Danielle Annisa', 'P04'), ('2400020042', 'Wonu Ramadhan', 'P02'), ('2400017049', 'Aditya Agust', 'P05');
+
+insert into tb_buku values ('B01', 'Struktur Data', 'Suprihatin, S.Kom', 'Andi Offset', '100'), ('B02', 'Clean Architecture', 'Robert C. Martin', 'Gava Media', 240), ('B03', 'Organisasi Komputer', 'Imam Riadi, SPd, M.Kom', 'Andi Offset', '100'), ('B04', 'Mikrobiologi', 'Hadi Sasongko, M.Si', 'Elex Media', '130'), ('B05', 'Matematika', 'Sugiarto, M.Si', 'Gava Media', '25');
+
+insert into tb_pinjam values ('2400016071', 'B01', '2023-12-12', '2024-01-05', '2024-01-01', '1'), ('2400021058', 'B02', '2024-01-05', '2024-01-25', NULL, '0'), ('2400010003', 'B03', '2023-11-23', '2023-12-14', NULL, '1'), ('2400020042', 'B04', '2024-01-03', '2024-02-12', '2024-01-11', '1'), ('2400017049', 'B05', '2023-11-18', '2023-11-25', '2023-11-23', '1');

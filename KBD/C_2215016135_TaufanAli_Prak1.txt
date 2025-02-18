@@ -1,0 +1,5 @@
+create database 2215016135_kbd;
+use 2215016135_kbd;
+create table prodi(kode_prodi char(3) primary key, nama_prodi varchar(30) NOT NULL, fakultas varchar(30) NOT NULL);
+insert into prodi values('f01', 'Fisika', 'FAST'), ('f02', 'Biologi', 'FAST'), ('f03', 'Matematika', 'FAST'), ('f04', 'Sistem Informasi', 'FAST'), ('f05', 'Informatika', 'FTI'), ('f06', 'Teknik Industri', 'FTI'), ('f07', 'Teknik Elektro', 'FTI'), ('f08', 'Teknik Kimia', 'FTI'), ('f09', 'Teknik Pangan', 'FTI');
+select * from prodi;
